@@ -6,18 +6,49 @@ Este proyecto analiza y predice la cancelación de clientes (**churn**) en una e
 
 ## 📁 Estructura del proyecto
 
-├── /data/                     
-│   └── datos_tratados.csv                     # 📄 Datos ya preprocesados para el análisis
-├── TelecomX_LATAM.ipynb                       # 📓 Notebook de Jupyter con análisis, modelos y visualizaciones
-├── README.md                                  # 📖 Descripción general del proyecto, objetivos y resultados
-└── /Imagenes/                                
-    ├── boxplot_charges_total_churn.png        # 📊 Boxplot: Total Charges vs. Churn
-    ├── boxplot_tenure_churn.png               # 📊 Boxplot: Tenure vs. Churn
-    ├── comparacion_modelos.png                # 📈 Comparación de desempeño entre modelos
-    ├── matriz_correlacion_numericas.png       # 🔍 Matriz de correlación entre variables numéricas
-    ├── scatterplot_tenure_charges_churn.png   # 📉 Dispersión: Tenure vs. Total Charges con Churn
-    ├── top15_importancia_knn.png              # ⭐ Top 15 variables más importantes - KNN
-    └── top15_importancia_rf.png               # ⭐ Top 15 variables más importantes - Random Forest
+📁 Estructura del proyecto
+
+├── /data/  
+│   └── datos_tratados.csv  
+│       Archivo CSV con los datos ya preprocesados y listos para el análisis.  
+
+├── TelecomX_LATAM.ipynb  
+│   Notebook de Jupyter donde se realizó el análisis completo:  
+│   - Limpieza y exploración de datos  
+│   - Visualizaciones  
+│   - Modelado y evaluación  
+
+├── README.md  
+│   Documento explicativo del proyecto, incluyendo:  
+│   - Objetivo general  
+│   - Metodología  
+│   - Resultados clave  
+│   - Instrucciones de uso  
+
+└── /Imagenes/  
+    Contiene todas las visualizaciones exportadas desde el notebook:  
+
+    ├── boxplot_charges_total_churn.png  
+    │   Boxplot del gasto total frente a la variable de cancelación.  
+
+    ├── boxplot_tenure_churn.png  
+    │   Boxplot del tiempo de contrato frente a la cancelación.  
+
+    ├── comparacion_modelos.png  
+    │   Comparación visual de métricas entre los modelos aplicados.  
+
+    ├── matriz_correlacion_numericas.png  
+    │   Mapa de calor con las correlaciones entre variables numéricas.  
+
+    ├── scatterplot_tenure_charges_churn.png  
+    │   Gráfico de dispersión entre tiempo de contrato y gasto total, coloreado por cancelación.  
+
+    ├── top15_importancia_knn.png  
+    │   Top 15 variables más importantes según el modelo KNN.  
+
+    └── top15_importancia_rf.png  
+        Top 15 variables más importantes según el modelo Random Forest.  
+
 
 
 ## 🎯 Objetivos
