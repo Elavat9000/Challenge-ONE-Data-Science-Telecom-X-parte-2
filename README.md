@@ -9,7 +9,7 @@ Este proyecto analiza y predice la cancelación de clientes (**churn**) en una e
 
 ```bash
 ├── /data/                    # 📦 Carpeta de datos
-│   └── datos_tratados.csv    # 📊 Dataset procesado (CSV) de ['Link'](https://github.com/Elavat9000/TelecomX_LATAM_challenge2-data-science-LATAM/tree/main)
+│   └── datos_tratados.csv    # 📊 Dataset procesado (CSV) Parte uno de Proyecto Alura-One. Pueden buscarlo en mi Github.
 │
 ├── TelecomX_LATAM.ipynb      # 📓 Notebook de análisis (Python)
 │
