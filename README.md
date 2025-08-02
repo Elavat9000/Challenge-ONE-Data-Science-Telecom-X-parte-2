@@ -6,10 +6,6 @@ Este proyecto analiza y predice la cancelación de clientes (**churn**) en una e
 
 ## 📁 Estructura del Proyecto TelecomX  
 
-Aquí te va el breakdown de cómo está organizado este desmadre:  
-
-```bash
-
 ```bash
 ├── /data/                    # 📦 Carpeta de datos
 │   └── datos_tratados.csv    # 📊 Dataset procesado (CSV)
@@ -58,6 +54,15 @@ Aquí te va el breakdown de cómo está organizado este desmadre:
 - Conversión de variables categóricas a formato numérico usando codificación One-Hot.
 - Aplicación de **SMOTE** para balancear clases desbalanceadas (clientes cancelados vs. activos).
 - Escalado de variables numéricas con `StandardScaler`.
+
+---
+### 📊 Visualizaciones del Proyecto
+
+| ![Tenure vs Churn](Imagenes/boxplot_tenure_churn.png "📦 Tenure vs Churn") | ![Total Charges vs Churn](Imagenes/boxplot_charges_total_churn.png "💰 Cargos Totales vs Churn") | ![Scatter Tenure vs Charges](Imagenes/scatterplot_tenure_charges_churn.png "📉 Dispersión Tenure - Charges") |
+|:-------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
+| ![Matriz de Correlación](Imagenes/matriz_correlacion_numericas.png "🔗 Correlación") | ![Importancia KNN](Imagenes/top15_importancia_knn.png "🧠 KNN Importancia") | ![Importancia RF](Imagenes/top15_importancia_rf.png "🌲 Random Forest Importancia") |
+| ![Comparación de Modelos](Imagenes/comparacion_modelos.png "📈 Comparación Modelos") |  |  |
+
 
 ---
 
