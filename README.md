@@ -90,3 +90,14 @@ Estas fueron seleccionadas a partir de:
 ---
 
 ## 🚀 Cómo ejecutar el proyecto
+
+Puedes abrir y ejecutar el análisis fácilmente desde Google Colab:
+
+👉 [Abrir TelecomX_LATAM.ipynb](https://github.com/Elavat9000/Challenge-ONE-Data-Science-Telecom-X-parte-2/blob/main/Telecom_X_parte_2.ipynb)
+
+**Pasos:**
+1. Haz clic en el enlace de arriba.
+2. Haz clic en "Open in colab"
+3. Inicia sesión con tu cuenta de Google (si no lo has hecho).
+4. Ejecuta las celdas del notebook (una por una o con “Ejecutar todo Ctrl+F9”).
+5. El dataset se carga desde una URL pública en GitHub, por lo que no necesitas subir nada.
