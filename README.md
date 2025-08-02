@@ -101,3 +101,14 @@ Puedes abrir y ejecutar el análisis fácilmente desde Google Colab:
 3. Inicia sesión con tu cuenta de Google (si no lo has hecho).
 4. Ejecuta las celdas del notebook (una por una o con “Ejecutar todo Ctrl+F9”).
 5. El dataset se carga desde una URL pública en GitHub, por lo que no necesitas subir nada.
+
+## 📫 Autor
+
+**Francisco Javier Cervantes Mendieta**  
+[LinkedIn](https://www.linkedin.com/in/francisco-javier-cervantes-mendieta-327575213/) · [GitHub](https://github.com/Elavat9000)
+
+---
+
+## ⚖️ Licencia
+
+Este proyecto está bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
