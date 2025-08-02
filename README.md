@@ -6,6 +6,18 @@ Este proyecto analiza y predice la cancelación de clientes (**churn**) en una e
 
 ## 📁 Estructura del proyecto
 
+├── /data/                     
+│   └── datos_tratados.csv                     # 📄 Datos ya preprocesados para el análisis
+├── TelecomX_LATAM.ipynb                       # 📓 Notebook de Jupyter con análisis, modelos y visualizaciones
+├── README.md                                  # 📖 Descripción general del proyecto, objetivos y resultados
+└── /Imagenes/                                
+    ├── boxplot_charges_total_churn.png        # 📊 Boxplot: Total Charges vs. Churn
+    ├── boxplot_tenure_churn.png               # 📊 Boxplot: Tenure vs. Churn
+    ├── comparacion_modelos.png                # 📈 Comparación de desempeño entre modelos
+    ├── matriz_correlacion_numericas.png       # 🔍 Matriz de correlación entre variables numéricas
+    ├── scatterplot_tenure_charges_churn.png   # 📉 Dispersión: Tenure vs. Total Charges con Churn
+    ├── top15_importancia_knn.png              # ⭐ Top 15 variables más importantes - KNN
+    └── top15_importancia_rf.png               # ⭐ Top 15 variables más importantes - Random Forest
 
 
 ## 🎯 Objetivos
@@ -22,6 +34,26 @@ Este proyecto analiza y predice la cancelación de clientes (**churn**) en una e
 - Fuente: [`datos_tratados.csv`](https://raw.githubusercontent.com/Elavat9000/Challenge-ONE-Data-Science-Telecom-X-parte-2/refs/heads/main/Data/datos_tratados.csv)
 - Registros: ~7,000 clientes
 - Variables: Demográficas, tipo de servicio, contratos, pagos, duración y cargos mensuales/totales.
+
+---
+## 🔧 Preparación de los Datos
+
+### 📌 Clasificación de Variables
+
+- **Categóricas**: Género, método de pago, tipo de contrato, servicio de internet, etc.
+- **Numéricas**: Gasto mensual, gasto total, duración del contrato, etc.
+### 🧼 Proceso de Limpieza y Tratamiento
+
+- Eliminación de valores nulos o erróneos.
+- Conversión de variables categóricas a formato numérico usando codificación One-Hot.
+- Aplicación de **SMOTE** para balancear clases desbalanceadas (clientes cancelados vs. activos).
+- Escalado de variables numéricas con `StandardScaler`.
+
+---
+
+### 🔀 División de Datos
+
+- Se dividió el dataset en **conjunto de entrenamiento (train)** y **conjunto de prueba (test)** para evaluar de forma justa el desempeño de los modelos.
 
 ---
 
@@ -60,6 +92,17 @@ Este proyecto analiza y predice la cancelación de clientes (**churn**) en una e
 Estas fueron seleccionadas a partir de:
 - Importancia de variables (Random Forest + Permutation Importance)
 - Análisis gráfico y correlacional
+
+
+## 💡 Factores que más influyen en la cancelación
+
+Según el análisis de importancia de variables (usando Random Forest y método manual para KNN):
+
+- **Duración del contrato**
+- **Gasto total**
+- **Método de pago**
+- **Tipo de cliente (con o sin dependientes, pareja)**
+- **Servicio técnico o de internet**
 
 ---
 
