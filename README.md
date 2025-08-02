@@ -152,7 +152,7 @@ Según el análisis de importancia de variables (usando Random Forest y método 
 
 Puedes abrir y ejecutar el análisis fácilmente desde Google Colab:
 
-👉 [Abrir TelecomX_LATAM.ipynb](https://github.com/Elavat9000/Challenge-ONE-Data-Science-Telecom-X-parte-2/blob/main/Telecom_X_parte_2.ipynb)
+👉 [Abrir Telecom_X_parte_2.ipynb](https://github.com/Elavat9000/Challenge-ONE-Data-Science-Telecom-X-parte-2/blob/main/Telecom_X_parte_2.ipynb)
 
 **Pasos:**
 1. Haz clic en el enlace de arriba.
