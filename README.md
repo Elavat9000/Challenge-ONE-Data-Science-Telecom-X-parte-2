@@ -11,20 +11,17 @@ Este proyecto analiza y predice la cancelación de clientes (**churn**) en una e
 ├── /data/  
 │   └── datos_tratados.csv  
 │       Archivo CSV con los datos ya preprocesados y listos para el análisis.  
-
 ├── TelecomX_LATAM.ipynb  
 │   Notebook de Jupyter donde se realizó el análisis completo:  
 │   - Limpieza y exploración de datos  
 │   - Visualizaciones  
 │   - Modelado y evaluación  
-
 ├── README.md  
 │   Documento explicativo del proyecto, incluyendo:  
 │   - Objetivo general  
 │   - Metodología  
 │   - Resultados clave  
 │   - Instrucciones de uso  
-
 └── /Imagenes/  
     Contiene todas las visualizaciones exportadas desde el notebook:  
 
