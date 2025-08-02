@@ -1,5 +1,6 @@
 # 📊 Telecom X – Predicción de Cancelación de Clientes
 
+Este es un proyecto propuesto por Alura, sobre el análisis una muestra de datos, esto con el fin de identificar las principales causas de cancelación de clientes en una empresa de telecomunicaciones. Se trabajó con un conjunto de datos público que simula la información de clientes, servicios contratados, métodos de pago y comportamiento de permanencia. 
 Este proyecto analiza y predice la cancelación de clientes (**churn**) en una empresa de telecomunicaciones. A través de técnicas de ciencia de datos y machine learning, se identifican patrones de cancelación y se proponen estrategias de retención.
 
 ---
