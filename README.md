@@ -9,23 +9,25 @@ Este proyecto analiza y predice la cancelación de clientes (**churn**) en una e
 Aquí te va el breakdown de cómo está organizado este desmadre:  
 
 ```bash
-├── /data/                    # 👉 Aquí vive la data limpia y lista pa' chambear
-│   └── datos_tratados.csv    # 📊 El CSV con toda la info procesada
-│
-├── TelecomX_LATAM.ipynb      # 💻 El Jupyter Notebook con todo el análisis (el alma del proyecto)
-│
-├── README.md                 # 📖 La biblia del proyecto (explicaciones y instrucciones)
-│
-└── /Imagenes/                # 🖼️ Aquí están los screenshots pa'l reporte
-    ├── boxplot_charges_total_churn.png       # 📦 Boxplot de gastos vs. cancelación
-    ├── boxplot_tenure_churn.png              # ⏳ Boxplot de antigüedad vs. cancelación
-    ├── comparacion_modelos.png               # 🤼 Comparación de KNN vs. Random Forest
-    ├── matriz_correlacion_numericas.png      # 🔗 Matriz de correlación (pa' ver relaciones)
-    ├── scatterplot_tenure_charges_churn.png  # ✨ Scatterplot de antigüedad vs. gastos
-    ├── top15_importancia_knn.png             # 🏆 Variables más importantes en KNN
-    └── top15_importancia_rf.png              # 🥇 Variables más importantes en Random Forest
 
+```bash
+├── /data/                    # 📦 Carpeta de datos
+│   └── datos_tratados.csv    # 📊 Dataset procesado (CSV)
+│
+├── TelecomX_LATAM.ipynb      # 📓 Notebook de análisis (Python)
+│
+├── README.md                 # 📝 Documentación principal
+│
+└── /Imagenes/                # 🖼️ Carpeta de visualizaciones
+    ├── boxplot_charges_total_churn.png       # 📈 Boxplot: gastos vs cancelación
+    ├── boxplot_tenure_churn.png              # ⏳ Boxplot: antigüedad vs cancelación
+    ├── comparacion_modelos.png               # 🤝 Comparación de modelos
+    ├── matriz_correlacion_numericas.png      # 🔗 Matriz de correlación
+    ├── scatterplot_tenure_charges_churn.png  # ✨ Dispersión: antigüedad vs gastos
+    ├── top15_importancia_knn.png             # 🏆 Top variables KNN
+    └── top15_importancia_rf.png              # 🥇 Top variables Random Forest
 
+```
 
 
 ## 🎯 Objetivos
